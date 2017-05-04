@@ -5,6 +5,16 @@
 
 using namespace std;
 
+// lambda format
+/*
+ 
+ [capture list](parameter list){function body}
+ 
+ [](){cout << "Foo";}
+ 
+ */
+
+
 // simple lambda
 void simpleLambdaFn(vector<int>& v) {
     cout << "simpleLambdaFn called...\n";
