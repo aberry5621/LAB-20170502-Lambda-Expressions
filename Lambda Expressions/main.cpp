@@ -85,8 +85,28 @@ int main() {
     cout << "All elements are bigger than captured value? ";
     cout << boolalpha << all_of(myVec.begin(), myVec.end(),
            [captured](int& p) -> bool {
+               // comment for length
+               if (p > 0) {
+                   // just chekcing
+               }
                return p > captured;
            });
 
+    cout << "\n";
+    
+    vector<int> lechter = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    // summ all integers, default capture all by reference (&)
+    int sum = 0;
+    for_each(lechter.begin(), lechter.end(), [&](int x){sum += x;});
+    cout << "sum of ints: " << sum << endl;
+    
+    // find odd or even integers with capture
+    size_t c;
+    c = count_if(lechter.begin(), lechter.end(), [](int x){return x % 2;});
+    cout << "number of odds: " << c << endl;
+    
     return 0;
 }
+
+
+
