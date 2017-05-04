@@ -1,12 +1,18 @@
-#include <algorithm>
-#include <vector>
+/*
+ 
+ LAMDA REFERENCE CODE
+ 
+ */
+
 #include <iostream>
+#include <vector>
+#include <list>
+#include <algorithm>
 #include <cmath>
 
 using namespace std;
 
-// lambda format
-/*
+/* lambda format
  
  [capture list](parameter list){function body}
  
@@ -50,6 +56,37 @@ int main() {
     float x = -3.000008;
     absSortLambda(&x, 4);
     
+    // simple lambda in for each algorithm
+    list<int> myList = {1, 3, 5, 7, 9};
+    for_each(myList.begin(), myList.end(), [](int i){ cout << i << ' ';});
     
+    cout << "\n";
+    
+    // capture list by value, reference
+    int y = 99;
+    cout << "lambda capture y by value" << endl;
+    auto lamdaVal = [y]() {cout << y << endl;};
+    for (int i = 0; i < 5; i++) {
+        y++;
+        lamdaVal();
+    }
+
+    y = 99; // reset
+    cout << "lambda capture y by reference" << endl;
+    auto lamdaRef = [&y]() {cout << y << endl;};
+    for (int i = 0; i < 5; i++) {
+        y++;
+        lamdaRef();
+    }
+    
+    // trailing return type
+    int captured = 10;
+    vector<int> myVec{ 20, 40, 60, 80, 100 };
+    cout << "All elements are bigger than captured value? ";
+    cout << boolalpha << all_of(myVec.begin(), myVec.end(),
+           [captured](int& p) -> bool {
+               return p > captured;
+           });
+
     return 0;
 }
