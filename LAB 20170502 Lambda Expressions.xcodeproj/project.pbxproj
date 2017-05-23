@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E2CF818A1EB8E6BF00F8F8DA /* Lambda Expressions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lambda Expressions"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CF818A1EB8E6BF00F8F8DA /* LAB 20170502 Lambda Expressions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LAB 20170502 Lambda Expressions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CF818D1EB8E6BF00F8F8DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		E2CF818B1EB8E6BF00F8F8DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2CF818A1EB8E6BF00F8F8DA /* Lambda Expressions */,
+				E2CF818A1EB8E6BF00F8F8DA /* LAB 20170502 Lambda Expressions */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2CF81891EB8E6BF00F8F8DA /* Lambda Expressions */ = {
+		E2CF81891EB8E6BF00F8F8DA /* LAB 20170502 Lambda Expressions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2CF81911EB8E6BF00F8F8DA /* Build configuration list for PBXNativeTarget "Lambda Expressions" */;
+			buildConfigurationList = E2CF81911EB8E6BF00F8F8DA /* Build configuration list for PBXNativeTarget "LAB 20170502 Lambda Expressions" */;
 			buildPhases = (
 				E2CF81861EB8E6BF00F8F8DA /* Sources */,
 				E2CF81871EB8E6BF00F8F8DA /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "Lambda Expressions";
+			name = "LAB 20170502 Lambda Expressions";
 			productName = "Lambda Expressions";
-			productReference = E2CF818A1EB8E6BF00F8F8DA /* Lambda Expressions */;
+			productReference = E2CF818A1EB8E6BF00F8F8DA /* LAB 20170502 Lambda Expressions */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E2CF81851EB8E6BF00F8F8DA /* Build configuration list for PBXProject "Lambda Expressions" */;
+			buildConfigurationList = E2CF81851EB8E6BF00F8F8DA /* Build configuration list for PBXProject "LAB 20170502 Lambda Expressions" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2CF81891EB8E6BF00F8F8DA /* Lambda Expressions */,
+				E2CF81891EB8E6BF00F8F8DA /* LAB 20170502 Lambda Expressions */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +230,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2CF81851EB8E6BF00F8F8DA /* Build configuration list for PBXProject "Lambda Expressions" */ = {
+		E2CF81851EB8E6BF00F8F8DA /* Build configuration list for PBXProject "LAB 20170502 Lambda Expressions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2CF818F1EB8E6BF00F8F8DA /* Debug */,
@@ -239,13 +239,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2CF81911EB8E6BF00F8F8DA /* Build configuration list for PBXNativeTarget "Lambda Expressions" */ = {
+		E2CF81911EB8E6BF00F8F8DA /* Build configuration list for PBXNativeTarget "LAB 20170502 Lambda Expressions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2CF81921EB8E6BF00F8F8DA /* Debug */,
 				E2CF81931EB8E6BF00F8F8DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

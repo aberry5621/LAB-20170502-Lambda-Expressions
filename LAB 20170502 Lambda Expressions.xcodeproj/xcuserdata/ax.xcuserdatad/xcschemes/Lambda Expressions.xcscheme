@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E2CF81891EB8E6BF00F8F8DA"
-               BuildableName = "Lambda Expressions"
-               BlueprintName = "Lambda Expressions"
-               ReferencedContainer = "container:Lambda Expressions.xcodeproj">
+               BuildableName = "LAB 20170502 Lambda Expressions"
+               BlueprintName = "LAB 20170502 Lambda Expressions"
+               ReferencedContainer = "container:LAB 20170502 Lambda Expressions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E2CF81891EB8E6BF00F8F8DA"
-            BuildableName = "Lambda Expressions"
-            BlueprintName = "Lambda Expressions"
-            ReferencedContainer = "container:Lambda Expressions.xcodeproj">
+            BuildableName = "LAB 20170502 Lambda Expressions"
+            BlueprintName = "LAB 20170502 Lambda Expressions"
+            ReferencedContainer = "container:LAB 20170502 Lambda Expressions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E2CF81891EB8E6BF00F8F8DA"
-            BuildableName = "Lambda Expressions"
-            BlueprintName = "Lambda Expressions"
-            ReferencedContainer = "container:Lambda Expressions.xcodeproj">
+            BuildableName = "LAB 20170502 Lambda Expressions"
+            BlueprintName = "LAB 20170502 Lambda Expressions"
+            ReferencedContainer = "container:LAB 20170502 Lambda Expressions.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E2CF81891EB8E6BF00F8F8DA"
-            BuildableName = "Lambda Expressions"
-            BlueprintName = "Lambda Expressions"
-            ReferencedContainer = "container:Lambda Expressions.xcodeproj">
+            BuildableName = "LAB 20170502 Lambda Expressions"
+            BlueprintName = "LAB 20170502 Lambda Expressions"
+            ReferencedContainer = "container:LAB 20170502 Lambda Expressions.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
